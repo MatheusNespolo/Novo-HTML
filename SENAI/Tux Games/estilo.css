@@ -1,0 +1,121 @@
+/*
+   Se for criar uma estilização generica, usamos a TAG (HTML), se for específica podemos criar uma classe.
+*/
+
+.logo{ /* .nome --> classe  */
+    width: 50%; /* podemos utilizar em %, pixels e em */
+}
+nav{ /* generico: Mudamos toda a configuração da sessão nav */
+    position: absolute; /* absoluto em relação ao elemento que ele está contido */
+    top: 110px;  /* indica a distância entre o elemento e topo da página */
+    right: 0;  /* desloca tudo para direita */
+}
+nav li{  /* personalizar o li dentro da sessão nav */
+    display: inline;  /* Os itens ficarão um ao lado do outro*/
+    margin: 0 0 0 25px;  /* topo, direita, baixo, esquerda */
+}
+.logo_caixa{
+    width: 940px;  /* largura da div */
+    position: relative;  /*  */
+    margin: auto;
+}
+.logo_footer{
+    width: 94px;  /* largura da div */
+    position: relative;  /*  */
+    margin: auto;
+}
+header{
+    background: #FF914D; /* cor na tag */
+    padding: 20px 0;
+}
+body{
+    margin: 0; /* margem da página */
+    padding: 0; /* espaçamento */
+    border: 0; /* borda da página */
+    line-height: 1; 
+    font-family: "Tahoma", "Arial";
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #00ff15;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.banner{
+    width: 100%;
+}
+.principal{
+    width: 940px;
+    margin: auto;
+    background-color: #FFFFFE;
+    text-align: justify;
+    height: 200px;
+}
+.titulo_padrao{
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    padding: 30px 0 20px 0;
+}
+.img_controle{
+    float: left; 
+    width: 150px;
+    margin-right: 20px;
+}
+.italico{
+    font-style: italic;
+}
+.mapa{
+    text-align: center;
+    background: linear-gradient(#FFFFFE,#00ff15);
+}
+.beneficios{
+    background-color: #00ff15;
+}
+.lista{
+    list-style: "👾";
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0% 5% 0% 30%;
+}
+.lista li{
+    line-height: 2;
+}
+.lista li:before{
+    content: "🎮";
+}
+.lista li:first-of-type{
+    font-weight: bold;
+}
+.cadeira{
+    width: 20%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 5px 5px 2px 2px black;
+}
+.cadeira:hover{
+    opacity: 0.7;
+}
+.conteudo-beneficios{
+    width: auto;
+    margin: 0 auto auto auto;
+    text-align: left;
+}
+.video{
+    text-align: center;
+    margin: auto;
+    background-color: #00ff15;
+    padding: 20px;
+}
+footer{
+    background-color: #00ff15;
+    text-align: center;
+    padding: 20px;
+}

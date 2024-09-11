@@ -1,0 +1,43 @@
+body{
+    background-color: rgba(167, 2, 2, 0.926);
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    width: 100%;
+    position: relative;
+    left: 0;
+    box-shadow: 3px 3px 0 0;
+}
+nav{
+    width: 50%;
+    background-color: antiquewhite;
+    float: right;
+    position: relative;
+    right: 30%;
+    margin: auto;
+    box-shadow: 5px 5px 0 0;
+}
+li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 10px;
+}
+nav a:hover{
+    color: red;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.senai{
+    width: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+#escola{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    width: 80%;
+    margin: auto;
+}
