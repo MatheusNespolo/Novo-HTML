@@ -1,0 +1,17 @@
+Repositório curso em vídeo
+
+https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf			Aulas
+
+https://github.com/gustavoguanabara/html-css/tree/master/exercicios			Exercícios
+
+https://github.com/gustavoguanabara/html-css/tree/master/desafios			Desafios
+
+https://emojipedia.org									Emojis
+
+https://www.pexels.com/pt-br/								Imagens e vídeos
+
+https://fonts.google.com								Fontes do Google
+
+https://favicon.io									favicon
+
+https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA	Git e Github
