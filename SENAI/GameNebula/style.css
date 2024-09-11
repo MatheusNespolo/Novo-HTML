@@ -116,6 +116,7 @@ div#div1{
     border-radius: 8px;
     margin: 5px;
     width: 30%;
+    height: 500px;
     text-align: center;
     cursor: pointer;
     transition: background-color 0.3s, border-color 0.3s;
@@ -126,6 +127,7 @@ div#div2{
     border-radius: 8px;
     margin: 5px;
     width: 30%;
+    height: 500px;
     text-align: center;
     cursor: pointer;
     transition: background-color 0.3s, border-color 0.3s;
@@ -136,6 +138,7 @@ div#div3{
     border-radius: 8px;
     margin: 5px;
     width: 30%;
+    height: 500px;
     text-align: center;
     cursor: pointer;
     transition: background-color 0.3s, border-color 0.3s;
