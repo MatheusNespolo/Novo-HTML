@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe{
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando o uso de um iframe</h1>
+    <p>
+        Acessando o site da 
+        <iframe src="https://MatheusNespolo.github.io" frameborder="1" height="440" width="800">
+            <a href="https://MatheusNespolo.github.io" target="_blank">
+            </a>
+        </iframe> para buscar produtos.
+    </p>
+    <p>
+        Iframe não é mais utilizado para páginas externas
+    </p>
+    <p>
+        Iframe de uma página local 
+        <iframe src="../EXE023/tabela005.html" frameborder="1" height="500" width="600">
+            <a href="../EXE023/tabela005.html" target="_blank">
+            </a>
+        </iframe>
+    </p>
+    <br>
+    <p>
+        <iframe id="tela" name="frame" height="440" width="800" srcdoc="<h1>Escolha uma das opções acima<h1/> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio in veritatis eos accusantium quisquam, minus animi vero commodi, iste cum blanditiis non recusandae ducimus eveniet. Nulla quo dolore illum facere.<p/><img src= '../EXE022/imagens/target001.png'>">
+
+        </iframe>
+    </p>
+</body>
+</html>
