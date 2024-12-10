@@ -28,6 +28,10 @@ header > nav {
     border: 3px dashed darkblue;
 }
 
+header > nav > a {
+    background-color: dark;
+}
+
 main {
     background-color: white;
     margin: 15px;
