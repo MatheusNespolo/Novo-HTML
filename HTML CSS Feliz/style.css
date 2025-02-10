@@ -19,11 +19,21 @@ img{
 }
 
 ul {
-    list-style: circle;
+    list-style: square;
     display: flex;
 }
 
 li {
     color: antiquewhite;
-    padding: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+
+a:visited {
+    color: antiquewhite;
+}
+
+a:hover {
+    color: yellowgreen;
+    font-weight: bold;
 }
