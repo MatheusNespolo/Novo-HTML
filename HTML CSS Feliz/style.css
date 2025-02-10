@@ -31,9 +31,16 @@ ul {
 }
 
 li {
-    color: antiquewhite;
     margin: 10px;
     padding: 5px;
+}
+
+a {
+    font-family: 'Fira Code';
+    color: antiquewhite;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 10px;
 }
 
 a:visited {
