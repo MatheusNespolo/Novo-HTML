@@ -1,6 +1,12 @@
 /* Estilo geral */
-* {
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
     background-color: darkolivegreen;
+    height: 100vh;
 }
 
 section {
@@ -10,8 +16,8 @@ section {
 }
 
 img{
-    padding: 0;
-    margin: 0;
+    margin-left: 10px;
+    margin-top: 10px;
     width: 50px;
     height: 50px;
     border: 2px black solid;
@@ -19,6 +25,7 @@ img{
 }
 
 ul {
+    margin-right: 10px;
     list-style: square;
     display: flex;
 }
