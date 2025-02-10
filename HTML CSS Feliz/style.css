@@ -19,7 +19,7 @@ img{
 ul {
     list-style: circle;
     padding: 0;
-    margin-right: 0;
+    margin-right: 10px;
     display: flex;
 }
 
