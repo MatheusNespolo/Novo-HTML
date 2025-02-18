@@ -24,9 +24,18 @@ img{
     border-radius: 25%;
 }
 
+a:before {
+    content: "";
+    display: inline-block;
+    background-color: darkgoldenrod;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
 ul {
     margin: 10px;
-    list-style: square;
+    list-style: none;
     display: flex;
 }
 
@@ -39,7 +48,6 @@ a {
     font-family: 'Fira Code';
     font-size: 20px;
     color: antiquewhite;
-    background-color: darkgoldenrod;
     text-decoration: none;
     margin-right: 10px;
 }
